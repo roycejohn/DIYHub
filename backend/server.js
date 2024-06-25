@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import connectDB from './src/config/dbConnection.js';
 import express from 'express';
 import cors from 'cors';
-import projectRoutes from './src/routes/exProjectRoutes.js';
+import projectRoutes from './src/routes/projectRoutes.js';
 
 dotenv.config();
 
