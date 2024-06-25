@@ -26,8 +26,8 @@ function App() {
           <Route path="/" element = {<Home />} />
           {/* <Route path="/projects" element = {<DiyForm />} /> */}
           <Route path="/projects" element = {<ExProjectList />} />
-          <Route path="/community" element = {<Community/> } />
           <Route path="/about" element = {<About />} />
+          <Route path="/community" element = {<Community/> } />
           <Route path="/profile" element = {<Profile />} />
         </Routes>
       </div>
