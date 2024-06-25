@@ -1,23 +1,9 @@
-// import axios from 'axios';
+import React from 'react'
 
-// const API_URL = 'http://localhost:5000/api/projects';
+function api() {
+  return (
+    <div>api</div>
+  )
+}
 
-// export const getProjects = async () => {
-//   try {
-//     const response = await axios.get(API_URL);
-//     return response.data;
-//   } catch (error) {
-//     console.error('Error fetching projects:', error);
-//     throw error;
-//   }
-// };
-
-// export const createProject = async (project) => {
-//   try {
-//     const response = await axios.post(API_URL, project);
-//     return response.data;
-//   } catch (error) {
-//     console.error('Error creating project:', error);
-//     throw error;
-//   }
-// };
+export default api
